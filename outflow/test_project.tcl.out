@@ -1,0 +1,98 @@
+INFO     : --max_threads set to 6 
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.00013724 seconds.
+INFO     : 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 3132.21 MB, end = 3132.21 MB, delta = 0 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 182.884 MB, end = 183.068 MB, delta = 0.184 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 189.996 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : Pass 0: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 0 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.vdb".
+INFO     : Netlist pre-processing took 0.00201307 seconds.
+INFO     : 	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 3132.21 MB, end = 3132.21 MB, delta = 0 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 182.44 MB, end = 183.068 MB, delta = 0.628 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 189.996 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.net_proto
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.net_proto" took 0.000101 seconds
+INFO     : Setup net and block data structure took 9e-05 seconds
+INFO     : Run checks after load placement.
+INFO     : Read ipin pattern from /home/trinity/Downloads/efinity/2024.1/arch/./ipin_oph.xml
+INFO     : Finished parsing ipin pattern file '/home/trinity/Downloads/efinity/2024.1/arch/./ipin_oph.xdb'.
+INFO     : Finished parsing switch_block file '/home/trinity/Downloads/efinity/2024.1/arch/./sb_connectivity_subset.xdb'.
+INFO     : BuildGraph process took 16.9639 seconds.
+INFO     : 	BuildGraph process took 16.14 seconds (approximately) in total CPU time.
+INFO     : BuildGraph process virtual memory usage: begin = 3140.48 MB, end = 5345.63 MB, delta = 2205.14 MB
+INFO     : BuildGraph process resident set memory usage: begin = 204.444 MB, end = 2425.04 MB, delta = 2220.6 MB
+INFO     : 	BuildGraph process peak resident set memory usage = 2425.04 MB
+INFO     : check rr_graph process took 0.51093 seconds.
+INFO     : 	check rr_graph process took 0.51 seconds (approximately) in total CPU time.
+INFO     : check rr_graph process virtual memory usage: begin = 5501.57 MB, end = 5501.57 MB, delta = 0 MB
+INFO     : check rr_graph process resident set memory usage: begin = 2580.96 MB, end = 2581.08 MB, delta = 0.116 MB
+INFO     : 	check rr_graph process peak resident set memory usage = 2606.99 MB
+INFO     : Generated 6653382 RR nodes and 25233948 RR edges
+INFO     : This design has 0 global control net(s). See /home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.pnr.rpt for details.
+INFO     : Reading route file, /home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.route
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Deleting any pre-existing troute trace files
+INFO     : Deleting any pre-existing troute trace files
+INFO     : --max_threads set to 6 
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.00100454 seconds.
+INFO     : 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 4239.22 MB, end = 4239.22 MB, delta = 0 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 1324.08 MB, end = 1324.08 MB, delta = 0 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 2606.99 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : Pass 0: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 0 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.vdb".
+INFO     : Netlist pre-processing took 0.00542361 seconds.
+INFO     : 	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 4239.22 MB, end = 4239.22 MB, delta = 0 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 1324.08 MB, end = 1324.85 MB, delta = 0.768 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 2606.99 MB
+           ***** Ending stage netlist pre-processing *****
+           
+INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.net_proto
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.net_proto" took 7.6e-05 seconds
+INFO     : Setup net and block data structure took 0.00021 seconds
+INFO     : Run checks after load placement.
+INFO     : Read ipin pattern from /home/trinity/Downloads/efinity/2024.1/arch/./ipin_oph.xml
+INFO     : Finished parsing ipin pattern file '/home/trinity/Downloads/efinity/2024.1/arch/./ipin_oph.xdb'.
+INFO     : Finished parsing switch_block file '/home/trinity/Downloads/efinity/2024.1/arch/./sb_connectivity_subset.xdb'.
+INFO     : BuildGraph process took 18.9462 seconds.
+INFO     : 	BuildGraph process took 18.78 seconds (approximately) in total CPU time.
+INFO     : BuildGraph process virtual memory usage: begin = 4239.3 MB, end = 6444.98 MB, delta = 2205.68 MB
+INFO     : BuildGraph process resident set memory usage: begin = 1345.68 MB, end = 3566.09 MB, delta = 2220.41 MB
+INFO     : 	BuildGraph process peak resident set memory usage = 3566.09 MB
+INFO     : check rr_graph process took 0.587369 seconds.
+INFO     : 	check rr_graph process took 0.63 seconds (approximately) in total CPU time.
+INFO     : check rr_graph process virtual memory usage: begin = 6444.98 MB, end = 6444.98 MB, delta = 0 MB
+INFO     : check rr_graph process resident set memory usage: begin = 3566.09 MB, end = 3566.18 MB, delta = 0.088 MB
+INFO     : 	check rr_graph process peak resident set memory usage = 3592.16 MB
+INFO     : Generated 6653381 RR nodes and 25233951 RR edges
+INFO     : This design has 0 global control net(s). See /home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.pnr.rpt for details.
+INFO     : Reading route file, /home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.route
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk' with 1 sources

@@ -1,0 +1,38 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2024.1.163 
+Date: Sun Oct 13 20:24:41 2024
+
+Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: test_project
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 3 / 1076 (0.28%)
+Outputs: 1 / 1566 (0.06%)
+Clocks: 1 / 16 (6.25%)
+Logic Elements: 3 / 112128 (0.00%)
+	LE: LUTs/Adders: 3 / 112128 (0.00%)
+	LE: Registers: 1 / 107520 (0.00%)
+Memory Blocks: 0 / 1056 (0.00%)
+Multipliers: 0 / 320 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|         clk          |    Input     |
+|          i1          |    Input     |
+|          i2          |    Input     |
+|         out          |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 2 seconds

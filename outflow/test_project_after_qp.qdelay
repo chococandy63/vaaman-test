@@ -1,0 +1,16 @@
+placed { cell: "out~FF" site: eft }
+placed { cell: "clk" site: io }
+placed { cell: "i1" site: io }
+placed { cell: "i2" site: io }
+placed { cell: "out" site: io }
+placed { cell: "VCC" site: eft }
+placed { cell: "GND" site: efl }
+placed { cell: "CLKBUF__0" site: gbuf_block }
+route { driver { cell: "i1" port: "inpad" } sink { cell: "out~FF" port: "I[0]" } delay_max: 777 delay_min: 0  }
+route { driver { cell: "i2" port: "inpad" } sink { cell: "out~FF" port: "I[1]" } delay_max: 9654 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "out~FF" port: "CE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "VCC" port: "O" } sink { cell: "CLKBUF__0" port: "I[0]" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "GND" port: "O" } sink { cell: "out~FF" port: "RE" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "out~FF" port: "O_seq" } sink { cell: "out" port: "outpad" } delay_max: 832 delay_min: 0  }
+route { driver { cell: "CLKBUF__0" port: "clkout" } sink { cell: "out~FF" port: "clk" } delay_max: 0 delay_min: 0  }
+route { driver { cell: "clk" port: "inpad" } sink { cell: "CLKBUF__0" port: "IO_in" } delay_max: 0 delay_min: 0  }

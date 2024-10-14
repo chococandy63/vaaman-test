@@ -1,0 +1,87 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 17:28:27
+///////////////////////////////////
+
+[EFX-0021 ERROR] Elaboration of module 'top_module' failed. Please check previous error messages.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 17:29:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:11:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:6)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:14:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:6)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:15:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:6)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:16:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'out' is not permitted (VERI-1100) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:9)
+[EFX-0010 VERI-ERROR] module 'top_module' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:17:29
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'out' is not permitted (VERI-1100) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:9)
+[EFX-0010 VERI-ERROR] module 'top_module' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:18:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'out' is not permitted (VERI-1100) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:9)
+[EFX-0010 VERI-ERROR] module 'top_module' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:19:37
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'out' is not permitted (VERI-1100) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:9)
+[EFX-0010 VERI-ERROR] module 'top_module' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:21:08
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:6)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:21:26
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] procedural assignment to a non-register 'out' is not permitted (VERI-1100) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:9)
+[EFX-0010 VERI-ERROR] module 'top_module' is ignored due to previous errors (VERI-1072) (/home/trinity/Downloads/efinity/2024.1/project/test_project/top_module.v:12)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 13, 2024 20:24:27
+///////////////////////////////////
+

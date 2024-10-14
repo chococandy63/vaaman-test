@@ -1,0 +1,29 @@
+
+]
+out~FFeftlogic"'
+LUT__12eft(0)/lut4(0)/lut(1)"names"
+out~FFeft(0)/ff(0)"EFX_FF
+.
+clkioinpad"
+clkio(0)/inpad(0)"input
+,
+i1ioinpad"
+i1io(0)/inpad(0)"input
+,
+i2ioinpad"
+i2io(0)/inpad(0)"input
+1
+outiooutpad"
+outio(0)/outpad(1)"output
+6
+VCCefllogic"#
+VCCefl(0)/lut4(0)/lut(1)"names
+6
+GNDefllogic"#
+GNDefl(0)/lut4(0)/lut(1)"names
+S
+	CLKBUF__0
+gbuf_block
+gbuf_block".
+	CLKBUF__0gbuf_block(0)/gbuf(0)"
+EFX_GBUFCE

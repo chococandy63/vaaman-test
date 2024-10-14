@@ -1,0 +1,148 @@
+           
+           Efinix FPGA Placement and Routing.
+           Version: 2024.1.163 
+           Compiled: Jun 25 2024.
+           
+           Copyright (C) 2013 - 2024 Efinix, Inc. All rights reserved.
+
+           
+           The Tool Is Based on VPR of University of Toronto,
+           a free open source code under MIT license.
+           
+           
+INFO     : Running Placement and Routing for Family "Trion", Device "T120F324" ...
+           
+           ***** Beginning stage netlist pre-processing ... *****
+INFO     : Successfully Read in Verific binary Netlist dump file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.vdb".
+INFO     : ***** Beginning VDB Netlist Checker ... *****
+INFO     : VDB Netlist Checker took 0.00035459 seconds.
+INFO     : 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO     : VDB Netlist Checker virtual memory usage: begin = 253.552 MB, end = 253.552 MB, delta = 0 MB
+INFO     : VDB Netlist Checker resident set memory usage: begin = 129.288 MB, end = 129.288 MB, delta = 0 MB
+INFO     : 	VDB Netlist Checker peak resident set memory usage = 1249.77 MB
+INFO     : ***** Ending VDB Netlist Checker ... *****
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : Found 0 constant generator nets.
+INFO     : Pass 0: Swept away 0 nets with no fanout.
+INFO     : Pass 0: Swept away 0 blocks with no fanout.
+INFO     : Swept away 0 nets and 0 blocks in total.
+INFO     : Removed 0 LUT buffers
+INFO     : Successfully created VPR logical netlist from Verific binary DataBase file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.vdb".
+INFO     : Netlist pre-processing took 0.00165401 seconds.
+INFO     : 	Netlist pre-processing took 0 seconds (approximately) in total CPU time.
+INFO     : Netlist pre-processing virtual memory usage: begin = 253.552 MB, end = 253.552 MB, delta = 0 MB
+INFO     : Netlist pre-processing resident set memory usage: begin = 128.668 MB, end = 129.288 MB, delta = 0.62 MB
+INFO     : 	Netlist pre-processing peak resident set memory usage = 1249.77 MB
+           ***** Ending stage netlist pre-processing *****
+           
+           ***** Beginning stage pre-packing ... *****
+           ***** Ending stage pre-packing *****
+           
+           ***** Beginning stage packing ... *****
+INFO     : Generate proto netlist for file "/home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.net_proto" took 0.000159 seconds
+INFO     : Creating IO constraints file '/home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.io_place'
+INFO     : Packing took 0.00381046 seconds.
+INFO     : 	Packing took 0.01 seconds (approximately) in total CPU time.
+INFO     : Packing virtual memory usage: begin = 253.552 MB, end = 253.552 MB, delta = 0 MB
+INFO     : Packing resident set memory usage: begin = 129.544 MB, end = 129.544 MB, delta = 0 MB
+INFO     : 	Packing peak resident set memory usage = 1249.77 MB
+           ***** Ending stage packing *****
+           
+           ***** Beginning stage packed netlist loading ... *****
+INFO     : Read proto netlist file /home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.net_proto
+INFO     : Read proto netlist for file "/home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.net_proto" took 3.8e-05 seconds
+INFO     : Setup net and block data structure took 0.000247 seconds
+INFO     : Packed netlist loading took 0.0109122 seconds.
+INFO     : 	Packed netlist loading took 0.01 seconds (approximately) in total CPU time.
+INFO     : Packed netlist loading virtual memory usage: begin = 253.552 MB, end = 253.552 MB, delta = 0 MB
+INFO     : Packed netlist loading resident set memory usage: begin = 129.544 MB, end = 129.672 MB, delta = 0.128 MB
+INFO     : 	Packed netlist loading peak resident set memory usage = 1249.77 MB
+           ***** Ending stage packed netlist loading *****
+           
+           ***** Beginning stage pre-placement ... *****
+           
+           ***** Ending stage pre-placement *****
+           
+INFO     : No SDC file found.  Using default timing constraint of 1 ns.
+INFO     : NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+INFO     : Creating clock 'clk' with 1 sources
+           ***** Beginning stage initial placement ... *****
+INFO     : Reading core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : Successfully read core interface constraints file "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.csv"
+INFO     : Writing IO placement constraints to "/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.io"
+INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.interface.io'.
+INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.1/project/test_project/work_pnr/test_project.io_place'.
+WARNING  : clk has no assigned placement; it will be placed randomly.
+WARNING  : i1 has no assigned placement; it will be placed randomly.
+WARNING  : i2 has no assigned placement; it will be placed randomly.
+WARNING  : out has no assigned placement; it will be placed randomly.
+INFO     : 4 IOs will have random placement.
+           ***** Ending stage initial placement *****
+           
+           ***** Beginning stage placement ... *****
+INFO     : Create /home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project_after_qp.qdelay
+INFO     : QPLACER STATIC DB USAGE DISABLED
+INFO     : Starting Global Placer with 6 threads ...
+            ----------     -------  --------------     -------
+             Iteration       WHPWL Worst Slack (ps) Convergence
+            ----------     -------  --------------     -------
+INFO     :           1          33      1073741822        99.9%
+INFO     :           2          33      1073741822        99.9%
+INFO     :           3          33      1073741822        99.9%
+INFO     :           4          33      1073741822        99.9%
+INFO     :           5          33      1073741822        99.9%
+INFO     :           6          33      1073741822        99.9%
+INFO     :           7          33      1073741822        99.9%
+INFO     :           8          33      1073741822        99.9%
+INFO     :           9          33      1073741822        99.9%
+INFO     :          10          33      1073741822        99.9%
+INFO     :          11          33      1073741822       100.0%
+INFO     :          12          33      1073741822       100.0%
+INFO     :          13          33      1073741822       100.0%
+INFO     :          14          33      1073741822       100.0%
+INFO     : Starting Annealer
+            ----------     -------  --------------     -------
+             Iteration       WHPWL  Delay Max (ps)     R Limit
+            ----------     -------  --------------     -------
+INFO     :           0          33              NA        30.0
+INFO     :           1          37              NA        30.0
+INFO     :           2          37              NA        30.0
+INFO     :           3          39              NA        30.0
+INFO     :           4          36              NA        30.0
+INFO     :           5          37              NA        30.0
+INFO     :           6          34              NA        30.0
+INFO     :           7          35              NA        30.0
+INFO     :           8          35              NA        30.0
+INFO     :           9          36              NA        30.0
+INFO     :          10          34              NA        30.0
+INFO     :          11          35              NA        30.0
+INFO     :          12          36              NA        30.0
+INFO     :          13          34              NA        30.0
+INFO     :          14          34              NA        30.0
+INFO     :          15          33              NA        30.0
+INFO     :          16          34              NA        30.0
+INFO     :          17          34              NA        30.0
+INFO     :          18          35              NA        30.0
+INFO     :          19          33              NA        30.0
+INFO     :          20          34              NA        30.0
+INFO     :          21          33              NA        30.0
+INFO     :          22          34              NA        30.0
+INFO     :          23          34              NA        30.0
+INFO     :          24          33              NA        30.0
+INFO     :          25          33              NA        30.0
+INFO     : Generate /home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project_after_qp.qdelay
+INFO     : Placement successful: 3 cells are placed
+INFO     : Peak congestion smeared over 1/4 of the chip is 0.000212165 at 137,0
+INFO     : Congestion-weighted HPWL per net: 4.78031
+INFO     : Reading placement constraints from '/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.qplace'.
+INFO     : Finished Realigning Types (1 blocks needed type change)
+INFO     : Completed placement consistency check successfully.
+INFO     : Successfully created FPGA place file '/home/trinity/Downloads/efinity/2024.1/project/test_project/outflow/test_project.place'
+INFO     : Placement took 2.82957 seconds.
+INFO     : 	Placement took 3.73 seconds (approximately) in total CPU time.
+INFO     : Placement virtual memory usage: begin = 253.552 MB, end = 732.136 MB, delta = 478.584 MB
+INFO     : Placement resident set memory usage: begin = 130.044 MB, end = 542.048 MB, delta = 412.004 MB
+INFO     : 	Placement peak resident set memory usage = 1249.77 MB
+           ***** Ending stage placement *****
+           
